@@ -1,0 +1,14 @@
+
+body {
+    background-color: black;
+    background-image: url("../../public/img/backgrounds/night-sky.jpg");
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+
+.navbar{
+    color: white;
+}
