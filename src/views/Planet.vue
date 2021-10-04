@@ -48,7 +48,7 @@ export default {
   data() {
     return {
       info: null,
-      choosedPlanetId: this.$route.params.id
+      choosedPlanetId: this.$route.params.id - 1
     };
   },
   mounted(){

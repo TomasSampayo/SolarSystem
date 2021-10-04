@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Planet from "../views/Planet.vue";
+import Planets from "../views/Planets.vue";
 import DwarfPlanet from "../views/DwarfPlanet.vue";
+import DwarfPlanets from "../views/DwarfPlanets.vue";
 
 const routes = [
   {
@@ -13,6 +15,16 @@ const routes = [
     name: "DwarfPlanet",
     component: DwarfPlanet,
   },
+  {
+    path: "/dwarfplanets",
+    name: "DwarfPlanets",
+    component: DwarfPlanets
+  },
+  {
+    path: "/planets",
+    name: "Planets",
+    component: Planets
+  }
 ];
 
 const router = createRouter({
