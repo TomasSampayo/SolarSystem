@@ -1,3 +1,11 @@
 .planetContainer{
     background-color: black;
 }
+.card{
+    border-radius: 55px;
+}
+.container{
+    padding: 0;
+    min-width: 100%;
+    min-height: 100vh;
+}

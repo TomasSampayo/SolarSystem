@@ -1,0 +1,14 @@
+.container{
+    background-image: url("../../public/img/background-ilustration.jpg");
+}
+.solar{
+    color: orange;
+}
+
+.description{
+    color: white;
+}
+
+.title{
+    color: white;
+}

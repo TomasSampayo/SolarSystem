@@ -1,10 +1,16 @@
 import { createRouter, createWebHistory } from "vue-router";
+import Home from "../views/Home.vue";
 import Planet from "../views/Planet.vue";
 import Planets from "../views/Planets.vue";
 import DwarfPlanet from "../views/DwarfPlanet.vue";
 import DwarfPlanets from "../views/DwarfPlanets.vue";
 
 const routes = [
+  {
+    path: "/",
+    name: "Home",
+    component: Home
+  },
   {
     path: "/planet/:id",
     name: "Planet",

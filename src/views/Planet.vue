@@ -1,9 +1,11 @@
 <template>
-    <div class="uk-container uk-margin-top uk-align-center planetContainer">
+  <div class="container" :style="{ backgroundImage: 'url(' + backgroundImg + ')' }">
+  <br><br>
+    <div class="uk-container uk-align-center">
       <div class="uk-card uk-card-large uk-card-default">
         <div v-if="info">
-          <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+          <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-card-secondary" uk-grid>
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container uk-margin-bottom">
               <img  :src="info.image" :alt="info.name" width="400" height="400" uk-cover>
               <canvas width="600" height="400"></canvas>
             </div>
@@ -39,6 +41,7 @@
         </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -48,14 +51,13 @@ export default {
   data() {
     return {
       info: null,
-      choosedPlanetId: this.$route.params.id - 1
+      choosedPlanetId: this.$route.params.id - 1,
+      backgroundImg: null
     };
   },
   mounted(){
     let planet = this.choosedPlanetId
-    console.log(planet)
-    axios.get("../database.json").then((res) => (this.info = res.data.planets[planet]))
-    
+    axios.get("../database.json").then((res) => (this.info = res.data.planets[planet])).then(res => this.backgroundImg = res.backgroundImage)
   }
 };
 </script>
