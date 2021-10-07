@@ -1,0 +1,42 @@
+// 1. Your custom variables and variable overwrites.
+$global-primary-background: orange;
+//$global-font-family: "Comic Sans MS";
+
+
+// 2. Import default variables and available mixins.
+@import "uikit/src/scss/variables-theme.scss";
+@import "uikit/src/scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+//@mixin hook-card() { color: #000; }
+
+// 4. Import UIkit.
+@import "uikit/src/scss/uikit-theme.scss";
+
+
+// Customs
+body {
+    background-image: url("../img/background-ilustration.jpg");
+}
+
+/* Text */
+/*------------------------------------------------------------------------*/
+.uk-light {
+	.uk-text-primary {
+		color: $global-primary-background !important;
+	}
+}
+
+/* Cards */
+/*------------------------------------------------------------------------*/
+.uk-card-transparent {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: solid 2px $global-primary-background;
+	border-radius: 20px 50px 20px 50px;
+	box-shadow: 0 0 20px rgba($global-primary-background, 0.7), inset 0 0 20px rgba($global-primary-background, 0.7);
+}
+@media (min-width:960px) {
+	.uk-card-transparent {
+		border-radius: 20px 150px 20px 150px;
+	}
+}

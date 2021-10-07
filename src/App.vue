@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <div class="uk-container container uk-container-xlarge">
+    <div class="uk-light">
       <Navbar />
-      <div>
+      <div class="uk-container uk-container-large">
         <router-view></router-view>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -32,7 +30,6 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "./style.scss";
-@import "../node_modules/uikit/src/scss/uikit.scss";
-@import "./styles/app.css";
+  
+  @import "./styles/app.css";
 </style>

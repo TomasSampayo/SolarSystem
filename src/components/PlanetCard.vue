@@ -1,9 +1,7 @@
 <template>
-    <div>
-        <h3 class="uk-text-center uk-card-title">{{planetName}}</h3>
-        <div class="uk-card-body">
-            <img v-bind:src="planetImg" alt="planetName">
-        </div>
+    <div class="uk-card uk-card-default uk-card-body uk-card-small uk-text-center">
+        <h3 class="uk-card-title">{{planetName}}</h3>
+        <img v-bind:src="planetImg" :alt="planetName">
     </div>
 </template>
 
@@ -11,7 +9,7 @@
     export default {
         name: "PlanetCard",
         props: 
-            ['planetName', 'planetImg'],  
+        ['planetName', 'planetImg'],  
     }
 </script>
 
