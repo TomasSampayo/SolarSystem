@@ -1,5 +1,5 @@
 <template>
-  <nav uk-navbar class="uk-navbar-container uk-navbar-transparent">
+  <nav uk-navbar class="uk-navbar-container">
     <div class="uk-navbar-center">
       <ul class="uk-navbar-nav">
         <li>

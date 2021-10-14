@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
 // 1. Your custom variables and variable overwrites.
 $global-primary-background: orange;
-//$global-font-family: "Comic Sans MS";
+$global-medium-font-size: 1.25rem !default;  // 20px
+$base-heading-font-family: 'Poppins', sans-serif;;
+$navbar-nav-item-font-family: $base-heading-font-family;
+$navbar-nav-item-font-size: $global-medium-font-size;
+$navbar-background: $global-primary-background;
 
+$inverse-navbar-nav-item-color: #fff;
 
 // 2. Import default variables and available mixins.
 @import "uikit/src/scss/variables-theme.scss";
@@ -32,6 +39,7 @@ body {
 .card-irregular-radius {
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 20px 50px 20px 50px;
+	overflow: hidden;
 }
 
 .card-lighten-border {

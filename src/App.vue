@@ -1,5 +1,5 @@
 <template>
-    <div class="uk-light">
+    <div class="uk-light uk-height-viewport">
       <Navbar />
       <div class="uk-container uk-container-large">
         <router-view></router-view>
