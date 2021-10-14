@@ -5,6 +5,12 @@
             "name": "Mercurio",
             "about": "Mercurio es el planeta más pequeño de nuestro sistema solar. Simplemente, es un poco más grande que la Luna de la Tierra. Es el planeta más cercano al Sol, pero no es realmente el más cálido. Venus es el más cálido.",
             "image": "https://cdn-icons-png.flaticon.com/512/1086/1086084.png",
+            "imageGallery": {
+                "img1": "https://cdn.pixabay.com/photo/2012/01/09/09/33/mercury-11591_1280.png",
+                "img2": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia16853.jpg",
+                "img3": "https://www.nasa.gov/sites/default/files/images/354324main_mercurywest_messenger_big_full.jpg",
+                "img4": "https://www.nasa.gov/sites/default/files/images/755626main_PIA17280-full_full.jpg"
+            },
             "backgroundImage": "/img/backgrounds/mercury.jpg",
             "discovery": "Se conoce a Mercurio desde la antigüedad, ya que es visible sin necesidad de usar telescopios avanzados.",
             "satellites": "Mercurio no tiene satelites.",
@@ -16,6 +22,12 @@
             "name": "Venus",
             "about": "Aunque Venus no es el planeta más cercano al Sol, es el más caliente. Tiene una atmósfera densa, llena de dióxido de carbono, que provoca el efecto invernadero, y de nubes compuestas de ácido sulfúrico. Los gases atrapan el calor y mantienen a Venus bien calentito. De hecho, hace tanto calor en Venus que metales como el plomo serían charcos de metal fundido.",
             "image": "https://cdn-icons-png.flaticon.com/512/1086/1086102.png",
+            "imageGallery": {
+                "img1": "https://cdn.pixabay.com/photo/2012/01/09/09/22/venus-11587_1280.jpg",
+                "img2": "https://www.jhuapl.edu/Content/images/newsstory/20210603_image1_lg.jpg",
+                "img3": "https://www.nasa.gov/sites/default/files/images/501365main_pia00104-full_full.jpg",
+                "img4": "https://www.nasa.gov/sites/default/files/thumbnails/image/iss045e166104.jpg"
+            },
             "discovery": "Se conoce su existencia desde la antigüedad porque no es necesario usar telescopios avanzados para verlo.",
             "satellites": "Venus no tiene satelites.",
             "day": "243 dias terrestres.",
@@ -34,6 +46,12 @@
             "name": "Marte",
             "about": "Marte es un planeta desértico y frío. Es la mitad del tamaño de la Tierra, y también recibe el nombre de planeta rojo. Es rojo por el hierro oxidado que tiene en el suelo.",
             "image": "https://cdn-icons-png.flaticon.com/512/1086/1086083.png",
+            "imageGallery": {
+                "img1": "https://cdn.pixabay.com/photo/2012/01/09/09/22/venus-11587_1280.jpg",
+                "img2": "https://www.jhuapl.edu/Content/images/newsstory/20210603_image1_lg.jpg",
+                "img3": "https://www.nasa.gov/sites/default/files/pia17582_2.jpg",
+                "img4": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia21769.jpg"
+            },
             "backgroundImage": "/img/backgrounds/mars.jpg",
             "discovery": "Se conoce su existencia desde la antigüedad porque no es necesario usar los telescopios más avanzados para verlo.",
             "satellites": "Phobos, Deimos",
@@ -45,6 +63,12 @@
             "name": "Jupiter",
             "about": "Júpiter es el planeta más grande de nuestro sistema solar. Es parecido a una estrella, pero nunca llegó a ser lo suficientemente masiva como para empezar a arder. Está cubierto de rayas de nubes arremolinadas. Tiene fuertes tormentas como la Gran Mancha Roja, que hace cientos de años que dura. Júpiter es un gigante hecho de gas, y no tiene una superficie sólida, pero puede tener un núcleo interno sólido de aproximadamente el tamaño de la Tierra. Júpiter también tiene anillos, pero son demasiado tenues para verlos muy bien.",
             "image": "https://cdn-icons-png.flaticon.com/512/1086/1086078.png",
+            "imageGallery": {
+                "img1": "https://www.nasa.gov/sites/default/files/thumbnails/image/jupitergreatredspot_jplcarousel.jpg",
+                "img2": "https://www.nasa.gov/sites/default/files/thumbnails/image/jupiter-aurora-cropped.png",
+                "img3": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia23593.jpg",
+                "img4": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia21390.jpeg"
+            },
             "discovery": "Se conoce su existencia desde la antigüedad porque no es necesario usar los telescopios más avanzados para verlo.",
             "satellites": "Júpiter tiene 53 lunas. Las más conocidas son Io (se pronunciai-o, Europa y Calisto. Júpiter también tiene la luna más grande de nuestro sistema solar, Ganímedes.",
             "day": "Un día dura solo 10 horas.",
@@ -55,6 +79,12 @@
             "name": "Saturno",
             "about": "Saturno no es el único planeta que tiene anillos, pero definitivamente tiene los más bellos. Los anillos que vemos están compuestos por grupos de pequeños aros que rodean a Saturno. Están hechos de pedazos de hielo y roca. Como Júpiter, Saturno es una pelota de hidrógeno y helio, en gran parte.",
             "image": "https://cdn-icons-png.flaticon.com/512/1086/1086094.png",
+            "imageGallery": {
+                "img1": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/saturn_with_titan_pia14922_0.jpg",
+                "img2": "https://www.nasa.gov/sites/default/files/images/554241main_pia11667_full.jpg",
+                "img3": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia20488-1041.jpg",
+                "img4": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia18314-1041.jpg"
+            },
             "discovery": "Se conoce su existencia desde la antigüedad porque no es necesario usar los telescopios más avanzados para verlo.",
             "satellites": "Saturno obtiene el primer puesto en la categoría de la “mayor cantidad de las lunas” con 53 lunas y esto sin contar sus bellos anillos. Sus lunas tienen nombres fantásticos como Mimas, Encélado y Tetis. Una de esas lunas, llamada Titán, tiene incluso su propia atmósfera lo que es muy poco común para una luna.",
             "day": "Un día solo dura 10,7 horas.",
@@ -65,6 +95,12 @@
             "name": "Urano",
             "about": "Urano está compuesto de agua, metano y amoniaco sobre un pequeño centro rocoso. Su atmósfera está hecha de hidrógeno y helio, como Júpiter y Saturno, pero además contiene metano. El metano es lo que le da a Urano el color azul.",
             "image": "https://cdn-icons-png.flaticon.com/512/1086/1086101.png",
+            "imageGallery": {
+                "img1": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/saturn_with_titan_pia14922_0.jpg",
+                "img2": "https://www.nasa.gov/sites/default/files/thumbnails/image/uranus.jpg",
+                "img3": "https://www.nasa.gov/sites/default/files/thumbnails/image/potw1714a.jpg",
+                "img4": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia18182-uranus-voyager1.png"
+            },
             "discovery": "Urano fue descubierto en 1781 por William Herschel, en el Reino Unido.",
             "satellites": "Urano tiene 27 lunas que conocemos. Algunas de ellas tienen la mitad de hielo.",
             "day": "Un día dura un poco más de 17 horas. 17 horas y 14 minutos, para ser exactos.",
@@ -75,6 +111,12 @@
             "name": "Neptuno",
             "about": "Neptuno es oscuro, frío y muy ventoso. Es el último de los planetas de nuestro sistema solar. Está más de 30 veces más lejos del Sol que la Tierra. Neptuno es muy parecido a Urano. Está compuesto de una espesa mezcla de agua, amoniaco y metano sobre un centro sólido del tamaño de la Tierra. Su atmósfera se compone de hidrógeno, helio y metano. El metano le da a Neptuno el mismo color azul de Urano. Neptuno tiene seis anillos que no se ven fácilmente.",
             "image": "https://cdn-icons-png.flaticon.com/512/1086/1086088.png",
+            "imageGallery": {
+                "img1": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia01492-main.jpg",
+                "img2": "https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/pia01492-main.jpg?itok=FPW-D6Ue",
+                "img3": "https://www.nasa.gov/sites/default/files/images/110411main_Voyager2_280_yshires.jpg",
+                "img4": "https://www.nasa.gov/sites/default/files/thumbnails/image/1685_toi1231b_1280.jpeg"
+            },
             "discovery": "Neptune was discovered in 1846 by Urbain Le Verrier, John Couch Adams, and Johann Galle.",
             "satellites": "Neptuno tiene 14 lunas. Una de ellas, Tritón, es tan grande como el planeta enano Plutón.",
             "day": "Un día dura 16 horas.",
@@ -90,31 +132,51 @@
             "id": 1,
             "name": "Eris",
             "about": "Eris fue visto por primera vez en 2003 durante un estudio del Observatorio Palomar sobre el sistema solar exterior. Sus descubridores fueron Mike Brown, profesor de astronomía planetaria en el Instituto de Tecnología de California; Chad Trujillo del Observatorio Gemini; y David Rabinowitz de la Universidad de Yale. El descubrimiento fue confirmado en enero de 2005, y se presentó como un posible décimo planeta de nuestro sistema solar, ya que fue el primer objeto del Cinturón de Kuiper encontrado que parecía ser más grande que Plutón.",
-            "image": "https://cdn-icons-png.flaticon.com/512/3519/3519911.png"
+            "image": "https://cdn-icons-png.flaticon.com/512/3519/3519911.png",
+            "imageGallery": {
+                "img1": "https://apod.nasa.gov/apod/image/0609/eris_keck_big.jpg",
+                "img2": "https://apod.nasa.gov/apod/image/0706/eris_lombry_big.jpg"
+            }
         },
         {
             "id": 2,
             "name": "Pluto",
             "about": "Plutón está catalogado como un planeta enano. En 2006, Plutón fue categorizado con otros tres objetos en el sistema solar que son aproximadamente del mismo tamaño que Plutón: Ceres, Makemake y Eris. Estos objetos, junto con Plutón, son mucho más pequeños que los otros planetas.",
-            "image": "https://cdn-icons-png.flaticon.com/512/167/167337.png"
+            "image": "https://cdn-icons-png.flaticon.com/512/167/167337.png",
+            "imageGallery": {
+                "img1": "https://blogs.nasa.gov/pluto/wp-content/uploads/sites/253/2016/06/nh-image2.jpg",
+                "img2": "https://blogs.nasa.gov/pluto/wp-content/uploads/sites/253/2016/04/nh-pluto-planet-1.png"
+            }
         },
         {
             "id": 3,
             "name": "Makemake",
             "about": "Makemake es el tercer más grande de los planetas enanos luego de Eris y Plutón. Makemake está localizado en el Cinturón de Cuiper, junto con los otros planetas enanos Plutón y Haumea, una región más allá de la órbita de Neptuno. Plutón y Makemake son los dos objetos más brillantes que han sido descubiertos hasta ahora en el Cinturón de Cuiper. Le toma unos 310 años terrestres a este planeta enano completar una órbita alrededor del Sol. Makemake fue observado por primera vez en 2005 por unos astrónomos liderados por Michael Brown. Su nombre en clave era Conejo de Pascuas. Fue reconocido oficialmente como un planeta enano por la Unión Astronómica Internacional en 2008. Mediante observaciones se han encontrado evidencias de nitrógeno congelado en la superficie de Makemake. También se detectaron etano y metano congelados en su superficie. De hecho, los astrónomos creen que el metano puede estar presente en gránulos tan grandes como un centímetro de diámetro. Los astrónomos también encontraron evidencia de tolinas. Las tolinas son moléculas que se forman en cualquier lugar donde la luz ultravioleta del sol interactúa con sustancias tales como etano y metano. Si las tolinas están presentes, usualmente causan un color rojo-amarronado. Este color rojizo fue visto durante las observaciones de Makemake.",
-            "image": "https://cdn-icons-png.flaticon.com/512/2534/2534297.png"
+            "image": "https://cdn-icons-png.flaticon.com/512/2534/2534297.png",
+            "imageGallery": {
+                "img1": "https://apod.nasa.gov/apod/image/0807/makemake_nasa_big.jpg",
+                "img2": "https://apod.nasa.gov/apod/image/1604/Makemakemoon100mile2000px.jpg"
+            }
         },
         {
             "id": 4,
             "name": "Haumea",
             "about": "Haumea, designado por el Centro de Planetas Menores (MPC) como (136108) Haumea,n. 2​ es un planeta enano que se encuentra más allá de la órbita de Neptuno, en el cinturón de Kuiper. Su designación provisional fue «2003 EL61».n. 3​ El 17 de septiembre de 2008 la Unión Astronómica Internacional (UAI) lo clasificó como planeta enano y plutoide, nombrándolo en honor de la diosa hawaiana de la natalidad. 2​9​ Fue descubierto en 2003 por un equipo dirigido por José Luis Ortiz Moreno en el Observatorio de Sierra Nevada en España y en 2004 por un equipo dirigido por Mike Brown del Caltech en el Observatorio Palomar en los Estados Unidos.",
-            "image": "https://cdn-icons-png.flaticon.com/512/1374/1374275.png"
+            "image": "https://cdn-icons-png.flaticon.com/512/1374/1374275.png",
+            "imageGallery": {
+                "img1": "https://apod.nasa.gov/apod/image/1710/HaumeaRings_IAA_1900.jpg",
+                "img2": "https://apod.nasa.gov/apod/image/0809/haumea_nasa.jpg"
+            }
         },
         {
             "id": 5,
             "name": "Ceres",
             "about": "Ceres es un planeta enano y el objeto astronómico más grande del cinturón de asteroides, región del sistema solar que se encuentra entre las órbitas de Marte y Júpiter; su diámetro de aproximadamente 945 km lo convierte en el trigésimo tercer objeto conocido más grande del sistema solar. Se estima que su masa es un tercio de la masa total del cinturón de asteroides, siendo el único objeto de dicho cinturón que ha alcanzado el equilibrio hidrostático. Visto desde la Tierra, su magnitud aparente oscila entre 6,7 y 9,3; por lo tanto, es demasiado débil para ser observado a simple vista excepto en las oposiciones más favorables y bajo cielos muy oscuros.",
-            "image": "https://cdn-icons-png.flaticon.com/512/3519/3519784.png"
+            "image": "https://cdn-icons-png.flaticon.com/512/3519/3519784.png",
+            "imageGallery": {
+                "img1": "https://apod.nasa.gov/apod/image/1602/20151022_ceres_rc3_haulani_cowart.jpg",
+                "img2": "https://www.nasa.gov/sites/default/files/thumbnails/image/pia18924-16.jpg"
+            }
         }
     ]
 }

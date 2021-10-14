@@ -29,14 +29,21 @@ body {
 
 /* Cards */
 /*------------------------------------------------------------------------*/
-.uk-card-transparent {
+.card-irregular-radius {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 20px 50px 20px 50px;
+}
+
+.card-lighten-border {
 	background-color: rgba(0, 0, 0, 0.5);
 	border: solid 2px $global-primary-background;
-	border-radius: 20px 50px 20px 50px;
 	box-shadow: 0 0 20px rgba($global-primary-background, 0.7), inset 0 0 20px rgba($global-primary-background, 0.7);
 }
+
+
+
 @media (min-width:960px) {
-	.uk-card-transparent {
+	.card-irregular-radius {
 		border-radius: 20px 150px 20px 150px;
 	}
 }

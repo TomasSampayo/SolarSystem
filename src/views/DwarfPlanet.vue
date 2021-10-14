@@ -1,44 +1,71 @@
 <template>
-    <div class="uk-container uk-margin-top uk-align-center planetContainer">
-      <div class="uk-card uk-card-large uk-card-default">
-        <div v-if="info">
-          <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-              <img  :src="info.image" :alt="info.name" width="400" height="400" uk-cover>
-              <canvas width="600" height="400"></canvas>
-            </div>
-            <div>
-              <div class="uk-card-body">
-                <h3 class="uk-card-title">{{info.name}}</h3>
-                <p>{{info.about}}</p>
-                <section class="uk-flex-inline" v-if="info.name !== 'Tierra'">
-                  <aside class="uk-margin-right">
-                    <h4>Orbita</h4>
-                    <p>{{info.orbit}}</p>
-                  </aside>
-                  <aside class="uk-margin-left">
-                    <h4>Dia</h4>
-                    <p>{{info.day}}</p>
-                  </aside>
-                </section>
-                <section v-if="info.name !== 'Tierra'">
-                  <div>
-                    <h4>Descubrimiento</h4>
-                    <p>{{info.discovery}}</p>
-                  </div>
-                </section>
-                <section>
-                  <div>
-                    <h4>Satelites</h4>
-                    <p>{{info.satellites}}</p>
-                  </div>
-                </section>
-              </div>
-            </div>
+  <div>
+    <div
+      class="uk-card uk-card-large uk-card-body uk-card-transparent card-irregular-radius card-lighten-border uk-light">
+      <div v-if="info">
+        <div class="uk-grid uk-grid-large uk-flex-middle" uk-grid>
+          <div class="uk-width-2-5@m uk-flex-last@m uk-text-center">
+            <img :src="info.image" :alt="info.name" />
+          </div>
+
+          <div class="uk-width-3-5@m">
+            <h1>{{ info.name }}</h1>
+            <p>{{ info.about }}</p>
+
+            <section
+              class="uk-grid uk-child-width-1-2@m"
+              uk-grid
+              v-if="info.name !== 'Tierra'">
+              <aside>
+                <h4 class="uk-margin-small-bottom">Orbita</h4>
+                <p class="uk-margin-remove-top">{{ info.orbit }}</p>
+              </aside>
+              <aside>
+                <h4 class="uk-margin-small-bottom">Dia</h4>
+                <p class="uk-margin-remove-top">{{ info.day }}</p>
+              </aside>
+            </section>
+
+            <section v-if="info.name !== 'Tierra'">
+              <h4 class="uk-margin-small-bottom">Descubrimiento</h4>
+              <p class="uk-margin-remove-top">{{ info.discovery }}</p>
+            </section>
+
+            <section>
+              <h4 class="uk-margin-small-bottom">Satelites</h4>
+              <p class="uk-margin-remove-top">{{ info.satellites }}</p>
+            </section>
           </div>
         </div>
       </div>
+      <div v-else>Loading...</div>
     </div>
+    <div
+      v-if="info"
+      class="uk-position-relative uk-visible-toggle uk-light card-lighten-border uk-margin-large-top"
+      tabindex="-1"
+      uk-slideshow
+    >
+      <ul class="uk-slideshow-items">
+        <li v-for="image in info.imageGallery" :key="image">
+          <img :src="image" uk-cover />
+        </li>
+      </ul>
+
+      <a
+        class="uk-position-center-left uk-position-small uk-hidden-hover"
+        href="#"
+        uk-slidenav-previous
+        uk-slideshow-item="previous"
+      ></a>
+      <a
+        class="uk-position-center-right uk-position-small uk-hidden-hover"
+        href="#"
+        uk-slidenav-next
+        uk-slideshow-item="next"
+      ></a>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -48,18 +75,19 @@ export default {
   data() {
     return {
       info: null,
-      choosedPlanetId: this.$route.params.id - 1
+      choosedPlanetId: this.$route.params.id - 1,
     };
   },
-  mounted(){
-    let planet = this.choosedPlanetId
-    console.log(planet)
-    axios.get("../database.json").then((res) => (this.info = res.data.dwarfPlanets[planet]))
-    
-  }
+  mounted() {
+    let planet = this.choosedPlanetId;
+    console.log(planet);
+    axios
+      .get("../database.json")
+      .then((res) => (this.info = res.data.dwarfPlanets[planet]));
+  },
 };
 </script>
 
 <style>
-  @import '../styles/planet.css';
+@import "../assets/css/planet.css";
 </style>
