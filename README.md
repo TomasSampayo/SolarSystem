@@ -10,9 +10,9 @@ Instalar Nodejs (https://nodejs.org).
 ```npm install ```
 
 ### Para compilar
-```npm run ```
+```npm run serve```
 
 ## Colaboradores
-https://github.com/yaeru
-https://github.com/TomasSampayo
+- https://github.com/yaeru
+- https://github.com/TomasSampayo
 
